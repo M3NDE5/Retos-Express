@@ -1,0 +1,155 @@
+type: collection.insomnia.rest/5.0
+name: Ejercicios express
+meta:
+  id: wrk_aa966bf76a2d468797cb1113c0a6c1ba
+  created: 1756934125504
+  modified: 1756934125504
+  description: ""
+collection:
+  - url: http://localhost:5000/eliminarHistorial
+    name: Eliminar cookie
+    meta:
+      id: req_3464cc1e256c45a98cb96028cbc47677
+      created: 1756934263390
+      modified: 1756934383385
+      isPrivate: false
+      description: ""
+      sortKey: -1756934263390
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.5.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:5000/historial
+    name: Ver Cookie
+    meta:
+      id: req_e8a5dffdca334481b5a094d850e80fde
+      created: 1756934266457
+      modified: 1756934374821
+      isPrivate: false
+      description: ""
+      sortKey: -1756934266457
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.5.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:5000/dividir/6/5
+    name: Dividir
+    meta:
+      id: req_53e317d3fe0940c69638c38eb8fa8294
+      created: 1756934267698
+      modified: 1756934361966
+      isPrivate: false
+      description: ""
+      sortKey: -1756934267698
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.5.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:5000/multiplicar/6/5
+    name: Multiplicar
+    meta:
+      id: req_393016dd2cdd4c8b840c9da348475e21
+      created: 1756934287497
+      modified: 1756934356547
+      isPrivate: false
+      description: ""
+      sortKey: -1756934287497
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.5.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:5000/restar/6/5
+    name: Restar
+    meta:
+      id: req_3820c63980f844a5a46417fa2cb32fcc
+      created: 1756934289270
+      modified: 1756934351079
+      isPrivate: false
+      description: ""
+      sortKey: -1756934289270
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.5.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:5000/sumar/6/5
+    name: Sumar
+    meta:
+      id: req_4be1a675f166487fbe29d4ee3defc9e6
+      created: 1756934290234
+      modified: 1756934330466
+      isPrivate: false
+      description: ""
+      sortKey: -1756934290234
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.5.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_e4d2153c27e8a800678851bb4ff6edf135586160
+    created: 1756934125508
+    modified: 1756935232125
+  cookies:
+    - key: historial
+      domain: localhost
+      path: /
+      hostOnly: true
+      creation: 2025-09-03T21:19:49.559Z
+      lastAccessed: 2025-09-03T21:33:52.125Z
+      id: 28a6b1f0-1df6-4a11-bfd8-85f5cf9ab053
+environments:
+  name: Base Environment
+  meta:
+    id: env_e4d2153c27e8a800678851bb4ff6edf135586160
+    created: 1756934125506
+    modified: 1756934125506
+    isPrivate: false
